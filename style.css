@@ -134,3 +134,41 @@ body {
 #close {
     display: none;
 }
+
+/* Hero */
+#hero {
+    background-image: url("hero.jpg");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#hero h4 {
+    padding-bottom: 15px;
+
+}
+#hero h1 {
+    color: #088178;
+}
+
+#hero button {
+    background-image: url("button.png");
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    color: #088178;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight:700;
+    font-size: 15px;
+}
+#hero h2, #hero h4, p {
+    color: #e3e6f3;
+}
