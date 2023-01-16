@@ -866,7 +866,14 @@ font-weight: 600;
     height: 300px;
     object-fit: cover;
 }
-
+@font-face {
+    font-family: 'MyFont1';
+    src: url('Rinkle\ Belle.otf');
+}
+#blog .blog-details p {
+    font-family: MyFont1;
+    font-size: 20px;
+}
 #blog .blog-details {
     width: 50%;
 }
@@ -878,6 +885,10 @@ font-weight: 600;
     font-weight: 700;
     position: relative;
     transition: 0.3s;   
+}
+#blog .blog-details h4 {
+    text-shadow: 2px 2px 5px black;
+    word-wrap: break-word;
 }
 
 #blog .blog-details a::after{
