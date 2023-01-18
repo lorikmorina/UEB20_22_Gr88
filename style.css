@@ -1256,4 +1256,11 @@ color: #fff;
     border: 1px solid rgb(255, 255, 255);
     background-color: white;
   }
-  
+  .audioFlex{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .audioFlex audio {
+    margin: 10px;
+  }
