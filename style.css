@@ -1155,6 +1155,8 @@ border: 1px solid #e1e1e1;
     justify-content: space-between;
 }
 
+
+
 #coupon{
     width: 50%;
     margin-bottom: 30px;
@@ -1171,6 +1173,11 @@ border: 1px solid #e1e1e1;
     width: 60%;
     margin-right: 10px;
     border: 1px solid #e2e9e1;
+}
+#widthAuto input{
+
+    width: auto;
+
 }
 #coupon label {
     color: #fff;
