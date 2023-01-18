@@ -945,6 +945,18 @@ font-weight: 600;
 .floatAttr img:nth-child(1) {
     float: right;
 }
+
+#bannerMul {
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+    background: url(cover2.jpg) right bottom no-repeat, url(cover3.jpg) left top repeat;
+    background-size: contain;
+    height: 40vh;
+    margin: 0;
+}
 @font-face {
     font-family: 'MyFont1';
     src: url('Rinkle\ Belle.otf');
