@@ -1235,4 +1235,25 @@ font-size: 13px;
 color: #fff;
 
 }
-
+.draganddrop{
+    display: flex;
+}
+#drop1{
+    margin: 10px;
+    padding: 10px;
+    height: 50px;
+    width: 110px;
+    background-color: black;
+    border: none;
+}
+#drop2 {
+    float: left;
+    width: 110px;
+    height: 50px;
+    margin: 10px;
+    top: 50px;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+  }
+  
