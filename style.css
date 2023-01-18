@@ -1162,6 +1162,12 @@ border: 1px solid #e1e1e1;
     margin-right: 10px;
     border: 1px solid #e2e9e1;
 }
+#coupon label {
+    color: #fff;
+}
+#coupon input {
+    margin: 5px 0 5px 0;
+}
 
 #coupon button,
 #subtotal button{
