@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/49b85c6328.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Pro Read</title>
 </head>
 <body>
 <header id="header">
@@ -73,9 +73,9 @@
         <h2>We love to hear from you</h2>
         <input type="text" placeholder="Your Name">
         <input type="text" placeholder="E-mail">
-        <input type="text" placeholder="Subject">
+        <input id="subject" type="text" placeholder="Subject">
         <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>  
-        <button class="normal">Submit</button>
+        <button class="normal" onclick="checksubject()">Submit</button>
     </form>
 
     <div class="people">
@@ -182,5 +182,6 @@
       ev.target.appendChild(document.getElementById(data));
     }
     </script>
+   
 </body>
 </html>
