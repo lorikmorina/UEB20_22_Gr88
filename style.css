@@ -956,7 +956,7 @@ font-weight: 600;
     transition: 0.3s;   
 }
 #blog .blog-details h4 {
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 5px rgb(56, 56, 56);
     word-wrap: break-word;
 }
 
