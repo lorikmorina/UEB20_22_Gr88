@@ -935,6 +935,16 @@ font-weight: 600;
     height: 300px;
     object-fit: cover;
 }
+.floatAttr {
+    margin-top: 300px;
+}
+.floatAttr img {
+    
+    float: left;
+}
+.floatAttr img:nth-child(1) {
+    float: right;
+}
 @font-face {
     font-family: 'MyFont1';
     src: url('Rinkle\ Belle.otf');
