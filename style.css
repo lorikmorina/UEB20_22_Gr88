@@ -537,6 +537,17 @@ footer .copyright {
 #about-head div{
     padding-left: 40px;
 }
+#about-head ol {
+    color: #fff;
+    display: block;
+}
+#about-head h3, #about-head ul {
+    color: #fff;
+    flex-wrap: wrap;
+}
+#firstList {
+    list-style: square;
+}
 
 #about-app{
     text-align: center;
