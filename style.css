@@ -436,6 +436,10 @@ font-size: 12px;
     color: #ffbd27;
 
   }
+
+  .cssContent::before {
+    content: "special offers";
+  }
   #newsletter input {
     height: 3.125rem;
     pad: 0 1.25em;
