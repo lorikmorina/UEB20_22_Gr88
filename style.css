@@ -533,9 +533,10 @@ footer .copyright {
     display: flex;
     align-items: center;
 }
-#about-head img{
+#about-head video{
     width: 50%;
     height: auto;
+    border-radius: 10px;
 }
 #about-head div{
     padding-left: 40px;
