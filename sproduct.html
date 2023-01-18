@@ -57,8 +57,25 @@
             <h6>Home/Books</h6>
             <h4>Newest Books</h4>
             <h2>$12.00</h2>
-            <input type="number" value="1">
-            <button class="normal">Add to Cart</button>
+            
+            <form action="#">
+                <label>Quantity: </label>
+                <input type="number" value="1" min="1">
+            
+                <label for="browser">Type: </label>
+                <input list="browsers" name="browser" id="browser">
+                <datalist id="browsers">
+                  <option value="Audiobook">
+                  <option value="PDF">
+                  <option value="Hardcover">
+                  
+                </datalist>
+                <button class="normal">Add to Cart</button>
+              </form>
+              
+
+
+
             <h4>Product Details</h4>
             <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                 Suscipit vero assumenda repudiandae, 
