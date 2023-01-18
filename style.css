@@ -565,7 +565,18 @@ footer .copyright {
 }
 
 /* About */
-
+.mark1{
+    color: rgb(43, 106, 241);
+    background-color: transparent;
+}
+.mark2{
+    color: rgb(113, 86, 233);
+    background-color: transparent;
+}
+#mark3{
+    color: rgb(207, 85, 85);
+    background-color: transparent;
+}
 /* medium screen style */
 @media (max-width: 799px) {
     .section-p1 {
@@ -994,7 +1005,7 @@ font-weight: 600;
 }
 #contact-details .details li i{
     font-size: 14px;
-    padding right: 22px;
+    padding-right: 22px;
     color: #fff;
 }
 #contact-details .details li p{
