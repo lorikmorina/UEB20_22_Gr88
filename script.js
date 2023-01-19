@@ -164,3 +164,24 @@ function totalPrice(quantity) {
 
   document.getElementById("price").innerHTML = '$' + totalPrice.toFixed(2);
 }
+
+
+
+////constructor object at contact
+function Book(product, price) {
+    this.productName = product;
+    this.productPrice = price;
+  }
+  
+  
+  const cartBook1 = new Book("Sekretet e Familjes Tajd", 67);
+  const cartBook2 = new Book("Harry Potter", 34);
+  const cartBook3 = new Book("Kura e Shopenhauerit", 72);
+
+  $("#product1").html(cartBook1.productName);
+  $("#price1").html(cartBook1.productPrice);
+  $("#product2").html(cartBook2.productName);
+  $("#price2").html(cartBook2.productPrice);
+  $("#product3").html(cartBook3.productName);
+  $("#price3").html(cartBook3.productPrice);
+
