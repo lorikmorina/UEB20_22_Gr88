@@ -57,11 +57,11 @@
         <div class="single-pro-details">
             <h6>Home/Books</h6>
             <h4>Newest Books</h4>
-            <h2>$12.00</h2>
+            <h2 id="price">$12.00</h2>
             
             <form action="#" autocomplete="off">
                 <label>Quantity: </label>
-                <input type="number" id="quantity" value="1" min="1">
+                <input type="number" id="quantity" onchange="totalPrice(document.getElementById('quantity').value)" value="1" min="1">
                 <label for="select">Type: </label>
                 <select id="select" >
                     <option value="type" disabled selected>Type</option>
