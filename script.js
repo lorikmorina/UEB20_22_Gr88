@@ -19,6 +19,8 @@ if (close) {
 const subject = document.getElementById('subjectForm');
 const email = document.getElementById('emailForm');
 const name = document.getElementById('nameForm');
+
+
 function checkEmpty(){
     
     if(name.value == ""){
@@ -37,6 +39,9 @@ function checkEmpty(){
     }
 }
 
+
+
+/////Object Books
 const book1 = {
     bookName : "Harry Potter and the Philosopher's Stone",
     author  : "J.K Rowling",
@@ -61,7 +66,9 @@ const book1 = {
 
   var dollar = "$";
 
+
   
+
   $("#author1").html(book1.author);
   $("#bookName1").html(book1.bookName);
   $("#bookPrice1").html(book1.price + dollar);
@@ -77,6 +84,19 @@ $("#author2").html(book2.author);
   $("#author4").html(book4.author);
   $("#bookName4").html(book4.bookName);
   $("#bookPrice4").html(book4.price + dollar);
+
+
+
+
+  /////
+  function checkStock(a) {
+    if(a>10) {
+        alert("There is only 10 books in stock");
+    }
+  }
+
+
+
 
 /*Shop Now button*/
 $("#shbutton").click(function() {
