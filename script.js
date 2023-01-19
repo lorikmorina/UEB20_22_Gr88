@@ -189,3 +189,9 @@ function Book(product, price) {
   /////date object
   const d = new Date();
   document.getElementById("date").innerHTML = d;
+
+function changeF(){
+  let changeParagraph = document.getElementById("changeTake").innerHTML; 
+  let changed = changeParagraph.replace(/Real/g, "Not Real");
+  document.getElementById("changeTake").innerHTML = changed;
+}
