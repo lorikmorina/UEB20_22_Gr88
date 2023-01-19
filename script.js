@@ -185,3 +185,7 @@ function Book(product, price) {
   $("#product3").html(cartBook3.productName);
   $("#price3").html(cartBook3.productPrice);
 
+
+  /////date object
+  const d = new Date();
+  document.getElementById("date").innerHTML = d;
