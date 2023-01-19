@@ -16,10 +16,24 @@ if (close) {
 
 
 
-const subject = document.getElementById('subject');
-function checksubject (){
-    if(subject.value == ""){
-        alert("HELLO");
+const subject = document.getElementById('subjectForm');
+const email = document.getElementById('emailForm');
+const name = document.getElementById('nameForm');
+function checkEmpty(){
+    
+    if(name.value == ""){
+        alert("Please enter Name");
+        event.preventDefault();
+    } else {
+        if(email.value == ""){
+            alert("Please enter Email");
+            event.preventDefault();
+        } else {
+            if(subject.value == ""){
+                alert("Please write a Subject");
+                event.preventDefault();
+            }
+        }
     }
 }
 
