@@ -192,6 +192,6 @@ function Book(product, price) {
 
 function changeF(){
   let changeParagraph = document.getElementById("changeTake").innerHTML; 
-  let changed = changeParagraph.replace(/Real/g, "Not Real");
+  let changed = changeParagraph.replace(/R/g, 'W');
   document.getElementById("changeTake").innerHTML = changed;
 }
