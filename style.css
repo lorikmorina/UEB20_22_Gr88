@@ -941,6 +941,7 @@ footer .copyright {
 /* Shop */
 #page-header {
     background-image: url("banner.jpg");
+    background-attachment: fixed;
     width: 100%;
     height: 40vh;
     background-size: cover;
