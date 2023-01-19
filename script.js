@@ -37,3 +37,6 @@ function checkEmpty(){
     }
 }
 
+$("#shbutton").click(function() {
+    window.location.href = "shop.html";
+});
