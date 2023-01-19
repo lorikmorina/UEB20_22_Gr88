@@ -951,6 +951,12 @@ footer .copyright {
     padding: 14px;
 
 }
+#page-header button {
+    width: 20%;
+}
+#page-header h3 {
+    margin-top: 10px;
+}
 
 #page-header,
 h2 #page-header,
