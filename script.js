@@ -20,7 +20,14 @@ const subject = document.getElementById('subjectForm');
 const email = document.getElementById('emailForm');
 const name = document.getElementById('nameForm');
 
-
+function greet(name){
+  alert(`Thank you for contacting us ${name}`);
+}
+function callback1(callback){
+  const name = document.getElementById('nameForm').value;
+  callback(name)
+}
+const a = document.getElementById('nameForm').value;
 function checkEmpty(){
     
     if(name.value == ""){
@@ -34,6 +41,11 @@ function checkEmpty(){
             if(subject.value == ""){
                 alert("Please write a Subject");
                 event.preventDefault();
+            }else{
+              setTimeout(() => {
+                callback1(greet);
+              }, 2000);
+              event.preventDefault();
             }
         }
     }
