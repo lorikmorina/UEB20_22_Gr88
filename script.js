@@ -195,3 +195,14 @@ function changeF(){
   let changed = changeParagraph.replace(/R/g, 'W');
   document.getElementById("changeTake").innerHTML = changed;
 }
+
+
+ ////slide Effect
+ $(document).ready(function(){
+    $(".bUp").click(function(){
+      $(".small-img-col").slideUp();
+    });
+    $(".bDown").click(function(){
+      $(".small-img-col").slideDown();
+    });
+  });
