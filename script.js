@@ -28,10 +28,6 @@ function checkForNumber() {
   }
 }
 
-const subject = document.getElementById('subjectForm');
-const email = document.getElementById('emailForm');
-const name = document.getElementById('nameForm');
-
 function greet(name) {
   alert(`Thank you for contacting us ${name}`);
 }
@@ -39,18 +35,25 @@ function callback1(callback) {
   const name = document.getElementById('nameForm').value;
   callback(name)
 }
-const a = document.getElementById('nameForm').value;
-function checkEmpty() {
 
-  if (name.value == "") {
+
+////
+
+
+
+
+
+function checkEmpty(gName, gEmail, gSubject) {
+
+  if (gName.value == "") {
     alert("Please enter Name");
     event.preventDefault();
   } else {
-    if (email.value == "") {
+    if (gEmail.value == "") {
       alert("Please enter Email");
       event.preventDefault();
     } else {
-      if (subject.value == "") {
+      if (gSubject.value == "") {
         alert("Please write a Subject");
         event.preventDefault();
       } else {

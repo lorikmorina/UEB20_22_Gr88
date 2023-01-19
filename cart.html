@@ -85,10 +85,10 @@
             <form action="#" autocomplete="on">
                 <input types="text" placeholder="Enter Your Coupon" pattern="[A-Za-z]{5}">
                 <button class="normal">Apply</button>
-                <input type="text" placeholder="Name" pattern="[A-Za-z]{20}">
-                <input type="text" placeholder="Last Name" pattern="[A-Za-z]{25}">
+                <input type="text" placeholder="Name" pattern="[A-Za-z]{20}" id="firstName">
+                <input type="text" placeholder="Last Name" pattern="[A-Za-z]{25}" id="lastName">
                 <br>
-                <input type="email" placeholder="Email">
+                <input type="email" placeholder="Email" id="firstEmail">
                 <br>
                 
                 <input type="password" name="" id="pass" placeholder="Password">
@@ -111,7 +111,7 @@
                 </div>
                 
                 <br>
-                <button class="normal" type="submit">Submit</button>
+                <button class="normal" type="submit" onclick="checkEmpty(document.getElementById('firstName'),document.getElementById('firstEmail'),document.getElementById('lastName'))">Submit</button>
             </form>
             
         </div>
