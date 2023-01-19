@@ -88,7 +88,7 @@ $("#author2").html(book2.author);
 
 
 
-  /////
+  ///// Check Stock for product
   function checkStock(a) {
     if(a>10) {
         alert("There is only 10 books in stock");
@@ -96,6 +96,20 @@ $("#author2").html(book2.author);
   }
 
 
+//// 
+
+$("#select").on('change', function(){
+    switch($(this).find('option:selected').text()) {
+        case "Hardcover":
+            $("#bookDes").html("Hardocover Description");
+          break;
+        case "Audiobook":
+            $("#bookDes").html("Audiobook Description");
+          break;
+        default:
+            $("#bookDes").html("PDF Description");
+      } 
+});
 
 
 /*Shop Now button*/
