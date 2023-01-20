@@ -1306,6 +1306,10 @@ p {
     width: 70px;
 }
 
+#cart table tr td a {
+    cursor: pointer;
+}
+
 #cart table td:nth-child(1) {
     width: 100%;
     text-align: center;
