@@ -209,7 +209,10 @@ function changeF(){
   });
 //// hide and show
 function Hide(){
-  $("#cart").hide();
+  $("#cart").hide("fast", () => {
+    alert("YOUR CART HAS BEEN HIDDEN");
+  });
+
 }
 
 function Show(){
