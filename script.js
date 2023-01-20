@@ -231,3 +231,6 @@ function getUrla(){
     alert($("#geturl1").attr("href"));
   });
 }
+function setTextt(textId){
+  $(textId).text("OMG YOU FOUND ME");
+}
