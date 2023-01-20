@@ -1463,3 +1463,16 @@ p {
 #thankNote{
     display: none;
 }
+#animateButton{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    text-decoration: none;
+    background-color: #088178;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600; 
+    border-color: transparent;
+    margin-top: -15px;
+    margin-left: 5px;
+}

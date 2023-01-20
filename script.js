@@ -220,3 +220,6 @@ function Show(){
 function fadeNote() {
   $('#thankNote').fadeIn(3000);
 }
+function animate1(){
+  $('#animateButton').animate({left:'200px'}, 1000);
+}
