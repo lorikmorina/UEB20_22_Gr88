@@ -226,3 +226,8 @@ function fadeNote() {
 function animate1(){
   $('#animateButton').animate({left:'200px'}, 1000);
 }
+function getUrla(){
+  $("#getButton").click(function(){
+    alert($("#geturl1").attr("href"));
+  });
+}
