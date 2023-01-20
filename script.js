@@ -146,13 +146,6 @@ $("#select").on('change', function () {
   }
 });
 
-
-/*Shop Now button*/
-$("#shbutton").click(function () {
-  window.location.href = "shop.html";
-});
-
-
 ////loop
 function totalPrice(quantity) {
   var initialPrice = 12.00; // Initial price of the product
