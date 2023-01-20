@@ -233,8 +233,12 @@ function getUrla(){
 }
 function setTextt(textId){
   $(textId).text("OMG YOU FOUND ME");
+  $('#appendButton').fadeIn(50);
 }
 
 function removeProduct(product){
     product.remove();
+}
+function appendText1(){
+  $('#setText').append(' .OMG YOU FOUND ME. ');
 }
