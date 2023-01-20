@@ -205,4 +205,15 @@ function changeF(){
     $(".bDown").click(function(){
       $(".small-img-col").slideDown();
     });
+    
   });
+//// hide and show
+function Hide(){
+  $("#cart").hide();
+}
+
+function Show(){
+  $("#cart").show();
+}
+
+////
