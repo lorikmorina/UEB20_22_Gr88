@@ -1485,6 +1485,7 @@ p {
     background: transparent;
     color: #465b52;
     font-size: small;
+    cursor: pointer;
 }
 #appendButton{
     display: none;
