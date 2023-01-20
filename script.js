@@ -234,3 +234,7 @@ function getUrla(){
 function setTextt(textId){
   $(textId).text("OMG YOU FOUND ME");
 }
+
+function removeProduct(product){
+    product.remove();
+}
