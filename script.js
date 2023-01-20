@@ -217,3 +217,6 @@ function Show(){
 }
 
 ////
+function fadeNote() {
+  $('#thankNote').fadeIn(3000);
+}

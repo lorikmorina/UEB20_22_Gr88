@@ -1459,3 +1459,7 @@ p {
 .audioFlex audio {
     margin: 10px;
 }
+
+#thankNote{
+    display: none;
+}
